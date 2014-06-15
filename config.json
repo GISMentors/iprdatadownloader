@@ -1,0 +1,106 @@
+[
+    {
+    "label" : "Lokality návrh",
+    "id" : "lokality_navrh_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "Katastralni uzemi",
+    "id" : "map_katastralniuzemi_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "Městské části",
+    "id" : "map_mestskecasti_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "Mapove listy 10000",
+    "id" : "map_ml_10000_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "Mapove listy 1000",
+    "id" : "map_ml_1000_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "Mapove listy 50000",
+    "id" : "map_ml_50000_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "Mapove listy 2000",
+    "id" : "map_ml_2000_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "Mapove listy 5000",
+    "id" : "map_ml_5000_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "Mapove listy 500",
+    "id" : "map_ml_500_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "Praha",
+    "id" : "map_praha_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "Spravni obvody",
+    "id" : "map_spravniobvody_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "Statisticke obvody",
+    "id" : "map_statisticke_obvody_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    },
+    {
+    "label" : "ZSJ",
+    "id" : "map_zsj_p",
+    "properties" : {
+        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
+        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
+    }
+    }
+]

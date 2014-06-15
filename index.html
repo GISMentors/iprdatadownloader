@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <link rel="stylesheet" href="./css/ol.css" type="text/css">
+    <link rel="stylesheet" href="./css/fa/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./resources/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./resources/bootstrap/css/bootstrap-responsive.min.css" type="text/css">
+    <style>
+      .map {
+        width: 100%;
+        height: 100%;
+      }
+      div.ol-zoom {
+        top: 178px;
+        left: 158px;
+      }
+      div.ol-logo {
+        left: 150px;
+        bottom: 30px;
+      }
+      div.ol-attribution {
+        bottom: 30px;
+        right: 50px;
+      }
+
+      div.layerswitcher{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        padding: 0;
+        width:240px;
+        background:rgba(0, 0, 0, .5);
+      }
+
+      div.layers-scroller{
+        top: 35px;
+        position: absolute;
+        height: auto;
+        width: 100%;
+        overflow-x: auto;
+        bottom: 75px;
+      }
+
+      li.layer-item{
+         padding: 0;
+         margin: 0;
+         list-style: none;
+         border-bottom: 1px dotted #3f4141;
+         padding-right: 10px;
+      }
+
+      .right-item{
+        float: right;
+      }
+
+      span.layer-title{
+        color:white;
+            }
+
+    </style>
+    <title>Advanced View Positioning example</title>
+  </head>
+  <body>
+    <div id="modal" class="modal modal-dialog modal-sm" style="display: none;" data-layerId="">
+          <div class="modal-content">
+
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h4 class="modal-title" id="mySmallModalLabel"></h4>
+            </div>
+            <div class="modal-body">
+              Souřadnicový systém:
+              <select id="epsg" class="form-control">
+                <option value="5514">EPSG:5514</option>
+                <option value="4326">EPSG:4326 (WGS84)</option>
+                <option value="3857">EPSG:3857</option>
+              </select>
+            </br>
+              Formát:
+              <select id="format" class="form-control">
+                <option value="shp">shp</option>
+                <option value="geojson">geojson</option>
+                <option value="kml">kml</option>
+                <option value="gml">gml</option>
+              </select>
+            </br>
+              <button type="button" id="download" data-loading-text="Konvertuji..." class="btn btn-primary">
+                Stáhnout
+              </button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div>
+
+
+      <div class="row-fluid">
+        <div class="mapcontainer">
+          <div id="map" class="map"></div>
+          <div id="layerswitcher" class="layerswitcher">
+            <span style="font-size: 1.3em;color: rgb(17, 243, 17);padding:20px">IPR data downloader</span>
+          <div class="layers-scroller">
+            <ul class="">
+
+            </ul>
+          </div>
+          <a href="http://www.gismentors.eu/" style="bottom: 0px;position: absolute;left: 10px;">by GISMmentors</a>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+    <script src="lib/js/jquery/jquery.js" type="text/javascript"></script>
+    <script src="resources/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <script src="lib/js/ol/ol.js" type="text/javascript"></script>
+    <script src="lib/js/app/app.js" type="text/javascript"></script>
+
+    <script>
+      app.init()
+    </script>
+  </body>
+</html>
