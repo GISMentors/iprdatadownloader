@@ -1,13 +1,5 @@
 [
     {
-    "label" : "Lokality návrh",
-    "id" : "lokality_navrh_p",
-    "properties" : {
-        "graphicOverview" : "http://mpp.praha.eu/arcgis/rest/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/export?bbox=-756963%2C-1062291%2C-721963%2C-1027291&bboxSR=&layers=show%3A0&layerdefs=&size=&imageSR=&format=png&transparent=false&dpi=&time=&layerTimeOptions=&f=image",
-        "wms" : "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_polekoncentraci/MapServer/WMSServer"
-    }
-    },
-    {
     "label" : "Katastralni uzemi",
     "id" : "map_katastralniuzemi_p",
     "properties" : {
